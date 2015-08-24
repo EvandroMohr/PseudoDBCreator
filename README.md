@@ -11,7 +11,7 @@ Para criar novas classes, basta criar uma entidade na pasta `model/Entity/` e ut
 Para quem já é familiarizado com JPA o modelo é similar =)
 
 
-## Restultado produzido automaticamente pelo `index.php`
+## Resultado produzido automaticamente pelo `index.php`
 
 ```
 DROP TABLE IF EXISTS user; 
