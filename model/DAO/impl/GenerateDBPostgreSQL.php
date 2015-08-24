@@ -1,7 +1,7 @@
 <?php
 
 
-class GenerateDB implements IGenerateDB {
+class GenerateDBPostgreSQL implements IGenerateDB {
 	
 	
 	public function generate($entity){

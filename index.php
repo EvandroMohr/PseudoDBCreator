@@ -10,10 +10,10 @@ require_once 'Annotations.php';
 require_once 'model/Entity/User.php';
 require_once 'model/Entity/Perfil.php';
 require_once 'model/DAO/IGenerateDB.php';
-require_once 'model/DAO/impl/GenerateDB.php';
+require_once 'model/DAO/impl/GenerateDBPostgreSQL.php';
 
 
-$generator = New GenerateDB(); 
+$generator = New GenerateDBPostgreSQL(); 
 
 
 echo "<pre>".$generator->generate(new User())."</pre>";
